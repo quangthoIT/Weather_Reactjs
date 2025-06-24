@@ -15,3 +15,31 @@ body {
     rgba(3, 1, 50, 1) 100.2%
   );
 }
+
+@keyframes slide-up {
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-right {
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-down {
+  100% {
+    transform: translateY(-50%);
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-in {
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
